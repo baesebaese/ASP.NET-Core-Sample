@@ -1,5 +1,5 @@
 var builder = WebApplication.CreateBuilder(args);
-builder.Services.AddControllers();
+builder.Services.AddControllersWithViews();
 var app = builder.Build();
 
 //Controller를 사용한 경로 매핑
